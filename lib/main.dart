@@ -61,6 +61,13 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  String bigText = '''NGO Sikh Volunteers of Australia extend help 
+  towards the victims of bushfires. Sikh Volunteers Australia, an 
+  NGO  is helping the people affected by bushfire in the Bairnsdale 
+  region. They drove from Melbourne to serve hot food to affected 
+  people in the region. We salute such people who come forward to 
+  help the society in the time of need and spread the message of 
+  humanity taught by our Gurus.''';
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -93,14 +100,22 @@ class _MyHomePageState extends State<MyHomePage> {
           // center the children vertically; the main axis here is the vertical
           // axis because Columns are vertical (the cross axis would be
           // horizontal).
-          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+            Expanded(
+              child: const Text(
+                'You have pushed the button this many times:',
+              ),
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+            Expanded(
+              child: Text(
+                '$_counter',
+                style: Theme.of(context).textTheme.headline4,
+              ),
+            ),
+            Expanded(
+              child: SingleChildScrollView(
+                child: Text(bigText),
+              ),
             ),
           ],
         ),

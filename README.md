@@ -1,16 +1,16 @@
-# final_exam_starter_eu_fall_21
+## Final Exam Fall 2021, Mobile Apps
+#### Eternal University, Baru Sahib
+Mock Design
+Good News App
+https://docs.google.com/drawings/d/1q3afjuS3paoDp-6t46MqTd5hgP6eluNFRDEYUFKJ8VM/edit
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Topics to cover
+- [ ] Add app icon, added asset in images/
+- [ ] Create layout using rows columns
+- [ ] Use a widget like CircleAvatar 
+(can give exra hints for this, like background image) (Single Child ScrollingView)
+- [ ] Make stateful widget from scratch like MagicBall
+- [ ] Use setState to change app state
+- [ ] Use OOPs, classes like Destini
+- [ ] Refactor new widget VolunteerImageFrame
+- [ ] Use Font, maybe!
