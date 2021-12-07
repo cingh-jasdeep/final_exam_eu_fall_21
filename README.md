@@ -8,7 +8,12 @@ Waheguru Ji Ki Fateh ji
 Welcome to the final exam of Mobile Apps. Time is 120 minutes.
 This exam/exercise assumes you are familiar with [Topics](https://docs.google.com/document/d/181pcbvjMfZyU6oBY4mit2E8GftNrWmQucVXWMX6wN9c/edit?usp=sharing) covered in this class for Fall 2021 Semester at Eternal University, Baru Sahib.
 
-We shall be designing and implementing a news app, named as 'Good News App' :)
+We shall be designing and implementing a news app, named as _'Good News App'_ :)
+
+Final Working Demo
+
+<img src="https://user-images.githubusercontent.com/5167015/144979161-fa0258b6-df25-4c28-9e30-2a8aedf3fb7f.gif" width="150"/>
+
 Apart from making the reader happy 👼,
 in the *process* of making this app, you will apply concepts you covered in class.
 
